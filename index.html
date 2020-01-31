@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Document</title>
     <script>
         function validar(){
@@ -18,10 +19,15 @@
     </script>
 </head>
 <body>
-    <form action="" method="">
-        <input type="email" name="" id="email">
-        <input type="password" name="" id="micontrasenya">
-        <input type="button" value="Validar" onclick="validar()">
-    </form>
-</body>
+    <div id="cuadroPrincipal">
+        <p>Login Form</p>
+        <p class="textochico"> Login to access your dashboard</p>
+        <form action="" method="">
+            <input class="ancho100 fondogris" type="email" name="" id="email" placeholder="correo electronico"> 
+            <input class="ancho100 fondogris" type="password" name="" id="micontrasenya">
+            <input class="botonazul ancho100" type="button" value="Validar" onclick="validar()">
+        </form>
+        <p class="textochico"> Don´t have an account? Sign Up</p>
+    </div>
+    </body>
 </html>
