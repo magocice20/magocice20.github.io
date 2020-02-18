@@ -4,7 +4,7 @@ var posPlayer1 = 0;
 var posPlayer2 = 0;
 var jugando = true;
 const SPEED = 10;
-const DISTANCIA = 900;
+const DISTANCIA = 700;
 
 function inicializar(){
 	var logo = document.getElementById("logo");
